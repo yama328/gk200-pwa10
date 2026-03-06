@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G検定対策200</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- 追加: 最低限のフィードバック用スタイル（style.css が無い環境でも表示が崩れないように） -->
+  <style>
+    :root{--ok:#176b3a;--okbg:#e8f7eb;--ng:#a8071a;--ngbg:#fff1f0;--bd:#e5e5e5}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic",Meiryo,sans-serif;line-height:1.6;margin:0}
+    header,footer{padding:8px 12px;border-bottom:1px solid var(--bd)}
+    footer{border-top:1px solid var(--bd);border-bottom:none;color:#666}
+    nav button{margin-right:8px}
+    main{padding:12px}
+    .progress{font-size:14px;color:#666;margin-bottom:4px}
+    .prompt{padding:12px;border:1px solid var(--bd);border-radius:8px;margin:8px 0;background:#fafafa}
+    .options{display:grid;gap:8px;margin:12px 0}
+    .option-btn{display:block;width:100%;text-align:left;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;background:#fff;cursor:pointer}
+    .option-btn[disabled]{opacity:.65;cursor:not-allowed}
+    .option-btn.correct{border-color:#93d7a5;background:var(--okbg)}
+    .option-btn.wrong{border-color:#ffccc7;background:var(--ngbg)}
+    .feedback{display:none;margin-top:10px;padding:12px;border-radius:8px;border:1px solid var(--bd)}
+    .feedback.show{display:block}
+    .feedback.ok{border-color:#93d7a5;background:var(--okbg);color:var(--ok)}
+    .feedback.ng{border-color:#ffccc7;background:var(--ngbg);color:var(--ng)}
+    .explain{margin-top:8px;color:#444}
+    .card{margin-top:10px;padding:10px;border:1px dashed #cfcfcf;border-radius:8px;background:#fff}
+    .actions{margin-top:12px}
+    .actions button{margin-right:8px}
+    .chapters{display:flex;flex-wrap:wrap;gap:8px}
+    .chapters label{border:1px solid var(--bd);padding:4px 8px;border-radius:16px;display:inline-flex;gap:6px;align-items:center}
+    .meta{font-size:12px;color:#666}
+    .hidden{display:none}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>G検定対策200</h1>
+    <nav>
+      <button id="nav-home">ホーム</button>
+      <button id="nav-notes">誤答ノート</button>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <footer>
+    <small>© G対策 PWA / ローカル保存：誤答ノート</small>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        try { navigator.serviceWorker.register('./service-worker.js'); } catch(e) {}
+      });
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
