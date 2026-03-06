@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "Diffusion_Model",
+    "term": "拡散モデル(Diffusion)",
+    "definition": "ノイズ付加と除去過程を学び高品質画像や音声を生成するモデル",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Diffusion Model",
+    "priorityScore": 1.39,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "ベクトルDB",
+      "脱ハルシネ対策",
+      "ViT"
+    ]
+  },
+  {
+    "id": "Vector_Database",
+    "term": "ベクトルDB",
+    "definition": "埋め込みベクトルを近傍探索しRAGを高速化",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "Vector Database",
+    "priorityScore": 1.3,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "脱ハルシネ対策",
+      "ViT"
+    ]
+  },
+  {
+    "id": "",
+    "term": "脱ハルシネ対策",
+    "definition": "根拠要求/RAG/安全プロンプト等で誤生成を抑制",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.3,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "ViT"
+    ]
+  },
+  {
+    "id": "ViT",
+    "term": "ViT",
+    "definition": "画像をパッチとして扱いTransformerで処理",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Vision Transformer (ViT)",
+    "priorityScore": 1.29,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "LLM",
+    "term": "大規模言語モデル(LLM)",
+    "definition": "膨大なコーパスで学習し多用途に使える生成型言語モデル",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Large Language Model (LLM)",
+    "priorityScore": 1.23,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Agents",
+    "term": "ツール使用(Agents)",
+    "definition": "API/DB/計算を呼びLLMがタスク実行する枠組み",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Agents",
+    "priorityScore": 1.23,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Transformer",
+    "term": "Transformer",
+    "definition": "Self-Attentionで長距離依存を捉える深層アーキテクチャ",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Transformer",
+    "priorityScore": 1.23,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "RAG",
+    "term": "RAG",
+    "definition": "検索結果をコンテキストに注入し最新知識で生成精度を高める手法",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Retrieval-Augmented Generation (RAG)",
+    "priorityScore": 1.23,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "LoRA",
+    "term": "LoRA",
+    "definition": "低ランク行列で一部重みのみ学習し軽量に微調整する技法",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Low-Rank Adaptation (LoRA)",
+    "priorityScore": 1.21,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "RLHF",
+    "term": "RLHF",
+    "definition": "人間の好ましい評価を報酬にして生成モデルの振る舞いを調整",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Reinforcement Learning from Human Feedback (RLHF)",
+    "priorityScore": 1.21,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Retrieval",
+    "term": "Retrieval",
+    "definition": "外部知識検索でLLMの正確性・最新性を補完",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.2,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "フェアネス/バイアス",
+    "definition": "属性による不当偏りを測定・緩和する課題",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.17,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "GDPR",
+    "term": "GDPR",
+    "definition": "EUの包括的個人データ規則。越境移転・同意等を厳格化",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.15,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "EU_AI_Act",
+    "term": "EU AI Act",
+    "definition": "リスク区分に基づきAIを規制する欧州の包括法",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.15,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "個人情報保護法",
+    "definition": "個人データの取得・利用・移転等を定める日本の基本法",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.13,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "NeRF",
+    "term": "NeRF",
+    "definition": "ニューラル表現で3Dシーンの新規視点合成",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Neural Radiance Fields (NeRF)",
+    "priorityScore": 1.13,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "MLOps",
+    "term": "MLOps",
+    "definition": "開発から運用までを自動化・標準化する実践",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.13,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "CLIP",
+    "term": "CLIP",
+    "definition": "画像と言語を共通埋め込みにしゼロショットを実現",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "CLIP",
+    "priorityScore": 1.13,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AI_Governance",
+    "term": "AIガバナンス",
+    "definition": "設計・運用・監査の枠組みでリスクを管理する体制",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "AI Governance",
+    "priorityScore": 1.12,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "30_4",
+    "term": "著作権法30条の4",
+    "definition": "日本で情報解析目的の利用を一定条件で許容する規定",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.11,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AIA",
+    "term": "AI影響評価(AIA)",
+    "definition": "利害関係者への影響とリスク対策を事前評価",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "AI Impact Assessment (AIA)",
+    "priorityScore": 1.1,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ハルシネーション",
+    "definition": "モデルがもっともらしいが誤った出力を生成",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.1,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "データガバナンス",
+    "definition": "品質・権利・セキュリティ等の包括管理",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.09,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "フェアネス指標",
+    "definition": "DemographicParity等で群間の不公平を測定",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Self_Attention",
+    "term": "Self-Attention",
+    "definition": "系列内のトークン相互関係を重み付けして表現を更新する機構",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Self-Attention",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Attention",
+    "term": "Attention",
+    "definition": "重要要素へ重みを配分し文脈表現を強調する仕組み",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Attention",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "概念ドリフト",
+    "definition": "ラベル規則自体の変化によりモデルが陳腐化",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "モデルドリフト",
+    "definition": "分布変化等で時間とともに性能が劣化する現象",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "データドリフト",
+    "definition": "入力分布の変化で予測が不安定化する問題",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.07,
+    "priorityLabel": "最重要",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Feature_Store",
+    "term": "Feature Store",
+    "definition": "特徴量の定義・計算・提供を再利用可能に管理",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.05,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "バイアス-バリアンス",
+    "definition": "モデルの偏りと分散のトレードオフ関係",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.05,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "評価データセット",
+    "definition": "代表性・バイアス・品質を点検した基準データ",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 1.05,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ガードレール",
+    "definition": "ルール/フィルタ/検知で有害出力を抑止する仕組み",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 1.05,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "BLEU_ROUGE",
+    "term": "BLEU/ROUGE",
+    "definition": "生成文のn-gram一致や要約重なりで自動評価",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "BLEU / ROUGE",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Perplexity",
+    "term": "Perplexity",
+    "definition": "言語モデルの予測困難さ。低いほど良い",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Perplexity",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "U_Net",
+    "term": "U-Net",
+    "definition": "セグメンテーションで強力なEncoder-Decoder構造",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "U-Net",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "StyleGAN",
+    "term": "StyleGAN",
+    "definition": "高解像生成と属性操作に優れたGAN系列",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "StyleGAN",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "YOLO_SSD",
+    "term": "YOLO/SSD",
+    "definition": "単段検出で高速物体検出を実現する代表手法群",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "YOLO / SSD",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "TTS_ASR",
+    "term": "音声TTS/ASR",
+    "definition": "Text-to-Speech/Automatic Speech Recognitionの総称",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "TTS / ASR",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Mask_R_CNN",
+    "term": "Mask R-CNN",
+    "definition": "検出とインスタンス分割を同時に行う拡張モデル",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Mask R-CNN",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ICL",
+    "term": "In-Context Learning",
+    "definition": "追加学習なしで例示提示からタスク適応する挙動",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "In-Context Learning (ICL)",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "GAN",
+    "term": "GAN",
+    "definition": "生成器と識別器の競合でデータ分布を学ぶモデル",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "Generative Adversarial Network (GAN)",
+    "priorityScore": 1.03,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Vision_Language",
+    "term": "Vision-Language",
+    "definition": "視覚と言語を結合した理解・生成モデル",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "マルチモーダル",
+    "definition": "画像・音声・テキスト等を統合して理解/生成",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "合成データ",
+    "definition": "匿名化や希少ケース補完のため人工生成したデータ",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Seq2Seq",
+    "term": "Seq2Seq",
+    "definition": "系列入力から系列出力を生成。翻訳や要約に応用",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "音声認識/合成",
+    "definition": "音声をテキスト化・生成。ASR/TTSと略記",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Program_of_Thoughts",
+    "term": "Program-of-Thoughts",
+    "definition": "外部ツール実行を絡めた段階的推論の設計",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Chain_of_Thought",
+    "term": "Chain-of-Thought",
+    "definition": "中間推論を明示させ複雑推論の精度を向上",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "OCR",
+    "term": "OCR/文字検出",
+    "definition": "画像から文字領域検出と文字認識を行う技術",
+    "chapter": "第6章",
+    "sourceChapter": "ディープラーニングの応用例",
+    "alias": "",
+    "priorityScore": 1.0,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Differential_Privacy",
+    "term": "差分プライバシー",
+    "definition": "ノイズ注入で個人寄与を秘匿した統計公開",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "Differential Privacy",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "HITL",
+    "term": "Human-in-the-Loop",
+    "definition": "重要判断に人を介在させリスクを抑制",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "Human-in-the-Loop (HITL)",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "SLA_SLO",
+    "term": "SLA/SLO",
+    "definition": "サービス水準の合意/目標を定め運用を管理",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "SLA / SLO",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AI_Ethics",
+    "term": "AI倫理",
+    "definition": "公平性・透明性・安全性など価値に沿った利用原則",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "AI Ethics",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ANN",
+    "term": "ANN(近似最近傍)",
+    "definition": "高速近傍探索で大規模ベクトル検索を実現",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "Approximate Nearest Neighbor (ANN)",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "DLP",
+    "term": "情報持出し防止(DLP)",
+    "definition": "秘匿情報の外部流出を検知・遮断する対策",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "DLP",
+    "priorityScore": 0.98,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "生成物の権利",
+    "definition": "AI生成物の権利帰属・契約での取扱いの論点",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "モニタリング指標",
+    "definition": "精度・再学習間隔・漂移量など運用監視KPI",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Rubric",
+    "term": "人手評価/Rubric",
+    "definition": "一貫基準で生成物の品質を人が採点",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "匿名加工情報",
+    "definition": "再識別困難化した個人情報の取り扱い枠組み",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "著作権の同一性保持",
+    "definition": "著作者の名誉・同一性を保護する権利",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "CI_CD_for_ML",
+    "term": "CI/CD for ML",
+    "definition": "データ→学習→評価→配備を自動化する仕組み",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AI",
+    "term": "AI監査",
+    "definition": "第三者や独立部門がAIの妥当性・証跡を評価",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "カリブレーション",
+    "definition": "確信度と実確率の整合。信頼性曲線で評価",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "クッキー規制",
+    "definition": "同意管理等でトラッキングの適法性を担保",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "アカウンタビリティ",
+    "definition": "説明責任と是正責任を果たすための体制",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AI",
+    "term": "オンデバイスAI",
+    "definition": "端末内で推論し遅延低減とプライバシー保護",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "コンテンツ認証",
+    "definition": "生成/編集履歴の証跡で真正性を確認する仕組み",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ゴールドデータ",
+    "definition": "高品質で信頼できる正解付きデータ",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "モデル監査/モニタリング",
+    "definition": "性能・逸脱・ログを継続監視し問題を早期検知",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "セキュリティ対策",
+    "definition": "アクセス制御や暗号等で機密性・完全性・可用性を確保",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "越境データ移転",
+    "definition": "国外移転時の適法性評価や契約・同意の確保",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "透明性/可監査性",
+    "definition": "内部動作や記録が検証可能である性質",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AI",
+    "term": "広島AIプロセス",
+    "definition": "国際的に信頼性あるAIの原則・行動を共有する枠組み",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "水印",
+    "definition": "生成物に識別信号を埋め帰属や改変検出に用いる",
+    "chapter": "第8章",
+    "sourceChapter": "AIの法律と倫理",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "可用性/信頼性設計",
+    "definition": "冗長化・監視・自動復旧で継続提供を担保",
+    "chapter": "第7章",
+    "sourceChapter": "AIの社会実装に向けて",
+    "alias": "",
+    "priorityScore": 0.95,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Positional_Encoding",
+    "term": "位置エンコーディング",
+    "definition": "Trfで系列順序情報を注入する符号",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Positional Encoding",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ResNet",
+    "term": "残差接続(ResNet)",
+    "definition": "恒等経路で勾配を通し超深層でも学習可能に",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Residual Connection (ResNet)",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Fully_Connected_Layer",
+    "term": "全結合層",
+    "definition": "特徴の線形結合と非線形で予測空間へ写像",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Fully Connected Layer",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Dilated_Atrous_Convolution",
+    "term": "Dilated畳み込み",
+    "definition": "間隔を空けて受容野拡大。時空間で有効",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Dilated/Atrous Convolution",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Depthwise_Separable_Convolution",
+    "term": "Depthwise分離",
+    "definition": "空間とチャネルを分離し計算・パラメータ削減",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Depthwise Separable Convolution",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Encoder_Decoder",
+    "term": "Encoder-Decoder",
+    "definition": "入力を潜在表現に圧縮し出力系列を段階生成する枠組み",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Encoder–Decoder",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Pooling_Layer",
+    "term": "プーリング層",
+    "definition": "局所集約で平行移動に頑健な要約表現を得る",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Pooling Layer",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "CNN",
+    "term": "CNN",
+    "definition": "畳み込みにより局所特徴と平行移動不変性を獲得するネット",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Convolutional Neural Network (CNN)",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AE",
+    "term": "オートエンコーダ",
+    "definition": "圧縮復元を学び特徴抽出や異常検知に用いる自己符号化器",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Autoencoder (AE)",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "VAE",
+    "term": "VAE",
+    "definition": "確率的潜在変数で連続潜在空間を学ぶ生成型AE",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "Variational Autoencoder (VAE)",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "RNN_LSTM_GRU",
+    "term": "RNN/LSTM/GRU",
+    "definition": "履歴依存を扱う再帰型。LSTM/GRUで長期依存を緩和",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "RNN / LSTM / GRU",
+    "priorityScore": 0.93,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "マルチヘッド注意",
+    "definition": "多視点の注意を並列化し多様な関係を捕捉",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "",
+    "priorityScore": 0.9,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "バッチ正規化",
+    "definition": "層の内部分布変動を抑え学習を安定・高速化する層",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "",
+    "priorityScore": 0.9,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "KL",
+    "term": "KLダイバージェンス",
+    "definition": "2分布の乖離を測る非対称指標。VAEなどで使用",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "",
+    "priorityScore": 0.9,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "活性化関数",
+    "definition": "ReLU等の非線形で表現力を高め勾配学習を可能にする関数",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "",
+    "priorityScore": 0.9,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "正規化層群",
+    "definition": "BN/LN/IN/GNなど分布やチャネル単位で正規化",
+    "chapter": "第5章",
+    "sourceChapter": "ディープラーニングの要素技術",
+    "alias": "",
+    "priorityScore": 0.9,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Kalman_Filter",
+    "term": "カルマンフィルタ",
+    "definition": "線形ガウス系の状態推定を最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "Kalman Filter",
+    "priorityScore": 0.88,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "GPT",
+    "term": "GPT",
+    "definition": "自己回帰生成に最適化された大型言語モデル系列",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "GPT",
+    "priorityScore": 0.88,
+    "priorityLabel": "高",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Adam_RMSprop",
+    "term": "Adam/RMSprop",
+    "definition": "勾配のモーメントで適応学習率を実現する最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ノーフリーランチ",
+    "definition": "単一最良アルゴリズムは存在しない理論結果",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "スパース化",
+    "definition": "多数の重みを零化し計算・メモリを削減",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Mixture_of_Experts",
+    "term": "Mixture-of-Experts",
+    "definition": "ゲーティングで専門家サブモデルを選択",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "二重降下現象",
+    "definition": "容量増で一度汎化悪化後に再改善する挙動",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "勾配消失/爆発",
+    "definition": "深層で勾配が極端に小/大となり学習が進まない問題",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "学習率",
+    "definition": "勾配更新の幅。大きすぎる発散/小さすぎる停滞に注意",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ハイパーネットワーク",
+    "definition": "別ネットが重みを生成し条件付けを容易に",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "バンディット問題",
+    "definition": "探索と活用の配分を最適化する意思決定課題",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "プロンプトエンジニアリング",
+    "definition": "入力設計や指示構造の工夫で生成AIの出力品質や安全性を最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ベイズ最適化",
+    "definition": "ガウス過程等で探索と改善のバランスを最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "レコメンド",
+    "definition": "嗜好推定により関連アイテムを提示し体験を最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "SGD",
+    "term": "最急降下法/SGD",
+    "definition": "勾配方向へ更新する基本法。確率的に計算を軽量化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "正則化",
+    "definition": "L1/L2等でモデルの複雑さを抑え過学習を防止する技法",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "重み初期化",
+    "definition": "Xavier/He等で勾配の流れを保ち学習を安定化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "早期終了",
+    "definition": "検証性能の悪化で学習を停止し過学習を防ぐ手法",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "閾値最適化",
+    "definition": "目的関数に合わせ予測確率の境界を最適化",
+    "chapter": "第4章",
+    "sourceChapter": "ディープラーニングの概要",
+    "alias": "",
+    "priorityScore": 0.85,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Precision",
+    "term": "適合率(Precision)",
+    "definition": "予測正例のうち真に正例の割合。誤検知を抑える指標",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Precision",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "PDP",
+    "term": "部分依存図(PDP)",
+    "definition": "特徴と予測の平均的関係を可視化",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "PDP",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Confusion_Matrix",
+    "term": "混同行列",
+    "definition": "分類の予測/実際の正誤を4区分で表し各指標の基礎となる",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Confusion Matrix",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Akaike_Bayesian_Information_Criterion",
+    "term": "AIC/BIC",
+    "definition": "過適合を避けつつ当てはまりが良いモデルを選ぶ情報量基準",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Akaike / Bayesian Information Criterion",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "BERT",
+    "term": "BERT",
+    "definition": "双方向事前学習で下流NLPに強い表現を提供",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "BERT",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Federated_Learning",
+    "term": "Federated Learning",
+    "definition": "分散端末で学習しパラメータのみ共有",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Federated Learning",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "F1_score",
+    "term": "F値",
+    "definition": "PrecisionとRecallの調和平均。バランス良い性能評価",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "F1-score",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "GMM",
+    "term": "GMM",
+    "definition": "混合正規分布で複合分布を近似する生成モデル",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Gaussian Mixture Model (GMM)",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "HMM",
+    "term": "HMM",
+    "definition": "隠れ状態と出力からなる確率時系列モデル",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Hidden Markov Model (HMM)",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ROC_curve_AUC",
+    "term": "ROC/AUC",
+    "definition": "閾値全域の識別性能を曲線と面積で評価する手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "ROC curve / AUC",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Word2Vec",
+    "term": "Word2Vec",
+    "definition": "単語の共起から連続ベクトル表現を学習",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Word2Vec",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "kNN",
+    "term": "k近傍法(kNN)",
+    "definition": "近傍多数決で分類/回帰。学習軽いが推論重い",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "kNN",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "t_SNE_UMAP",
+    "term": "t-SNE/UMAP",
+    "definition": "高次元データの局所構造を保つ可視化手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "t-SNE / UMAP",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Shapley",
+    "term": "シャープレイ値(Shapley)",
+    "definition": "特徴の貢献度を公平に配分する協力ゲーム尺度",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Shapley",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "LDA",
+    "term": "トピックモデル(LDA)",
+    "definition": "文書を潜在話題の混合として確率的に表現",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "LDA",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "CV",
+    "term": "交差検証",
+    "definition": "データを分割して学習と評価を繰返し汎化性能を見積もる",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Cross Validation (CV)",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Recall",
+    "term": "再現率(Recall)",
+    "definition": "真の正例のうち正しく検出できた割合。取り逃しに敏感",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Recall",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AR",
+    "term": "拡張現実(AR)",
+    "definition": "現実映像にデジタル情報を重畳する体験技術",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Augmented Reality (AR)",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ML",
+    "term": "機械学習",
+    "definition": "データから規則を学び予測や判断を行うアルゴリズム群の総称",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "Machine Learning (ML)",
+    "priorityScore": 0.83,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "欠損値処理",
+    "definition": "平均/多重代入等で欠測の影響を低減",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "決定木",
+    "definition": "条件分岐を学習し可読性の高い予測を行う木構造モデル",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "特徴量エンジニアリング",
+    "definition": "ドメイン知識等で有効特徴を設計・生成",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "異常検知",
+    "definition": "正常分布からの逸脱を見つけアラートする",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "粒子フィルタ",
+    "definition": "非線形・非ガウスで粒子集合により状態推定",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "線形回帰",
+    "definition": "説明変数の線形結合で連続値を予測する基礎モデル",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "評価のリーク",
+    "definition": "検証に学習情報が混入し過大評価となる不備",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "評価指標の選択",
+    "definition": "課題やコストに適合する指標選定が意思決定の鍵",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "因果推論",
+    "definition": "相関でなく介入効果を推定するフレームワーク",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "外れ値処理",
+    "definition": "ロバスト統計やしきい値で極端値を対処",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "学習カーブ",
+    "definition": "データ量と性能の関係を可視化し追加学習判断",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "強化学習",
+    "definition": "環境との相互作用と報酬から最適方策を獲得する学習",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "教師あり学習",
+    "definition": "入力と正解ラベルの対を用いて分類・回帰などを学ぶ手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "教師なし学習",
+    "definition": "ラベルなしデータから構造や分布を見つける学習。PCA等",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "時系列予測",
+    "definition": "時系列依存を用いて将来値や異常を推定",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "標準化/正規化",
+    "definition": "スケールをそろえ勾配学習や距離計算を安定化",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "A_B",
+    "term": "A/Bテスト",
+    "definition": "対照実験で施策効果を統計的に比較評価",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AGI_AI",
+    "term": "AGI/汎用AI",
+    "definition": "複数領域で自律的に適応・学習し多様課題を遂行できる一般知能の構想",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "AR_VAR",
+    "term": "AR/VAR",
+    "definition": "単変量/多変量の自己回帰モデルで時系列を表現",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Actor_Critic",
+    "term": "Actor-Critic",
+    "definition": "方策と価値を併用し学習安定と効率を両立",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Few_shot",
+    "term": "Few-shot学習",
+    "definition": "少量データで一般化を狙うメタ学習的設定",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Grid_Random_Search",
+    "term": "Grid/Random Search",
+    "definition": "系統網羅/乱択で候補を評価する基本探索",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "HDBSCAN",
+    "term": "HDBSCAN",
+    "definition": "密度に基づく階層クラスタリングで頑健",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ICE",
+    "term": "ICEプロット",
+    "definition": "個々のサンプルでの特徴-予測関係を表示",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "MSE_MAE_RMSE",
+    "term": "MSE/MAE/RMSE",
+    "definition": "回帰誤差の代表指標群。目的に応じて使い分け",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "PCA",
+    "term": "PCA",
+    "definition": "分散最大方向へ線形変換して次元を削減する手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Q",
+    "term": "Q学習",
+    "definition": "行動価値を反復更新し最適方策へ収束させる手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "SHAP_PermutationImp",
+    "term": "SHAP/PermutationImp.",
+    "definition": "重要度の説明・順列重要度で寄与を評価",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "SVM",
+    "term": "SVM",
+    "definition": "マージン最大化の超平面で高次元でも強力な分類を実現",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Self_Supervised",
+    "term": "Self-Supervised",
+    "definition": "自己教師ありで擬似ラベルから表現を学習する",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "XGBoost_LightGBM",
+    "term": "XGBoost/LightGBM",
+    "definition": "勾配ブースティングを高速・高性能に実装した代表ライブラリ",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "k_means",
+    "term": "k-means",
+    "definition": "中心の更新を繰返しデータをk群にクラスタリング",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "アラート閾値",
+    "definition": "異常検知や性能低下の通知を出す基準値",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "カテゴリ変数処理",
+    "definition": "One-Hot/Target Encoding等で数値化",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "カーネルトリック",
+    "definition": "非線形を高次元内積で暗黙的に扱うSVMの鍵手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "コストセンシティブ学習",
+    "definition": "誤分類コストを重み付けし損失へ反映",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "コントラスト損失",
+    "definition": "類似を近接・不類似を遠ざける表現学習の損失",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "スペクトラルクラスタ",
+    "definition": "グラフの固有ベクトルに基づく分割手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ターゲットエンコーディング",
+    "definition": "平均応答でカテゴリを符号化し表現力を向上",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "チューリングテスト",
+    "definition": "人間と機械を会話で識別できないかで知能を評価する試験",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ディープラーニング",
+    "definition": "多層ニューラルネットで特徴を自動抽出し高性能化する学習手法",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ナイーブベイズ",
+    "definition": "条件独立仮定で実装簡便な確率分類器",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ハイパーパラメータ探索",
+    "definition": "Grid/Random/ベイズで最適な設定を探索",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ヒューリスティック",
+    "definition": "経験則や評価関数で探索順を賢く絞る知識",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ファインチューニング",
+    "definition": "特定データで追加学習し領域適応や性能向上を図る",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "モデル再学習",
+    "definition": "新データ取り込みや閾値基準で学習を更新",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ランダムフォレスト",
+    "definition": "多数の木をバギングして高精度と頑健性を両立",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "リーク防止設計",
+    "definition": "時系列や相関を考慮し学習/評価の独立性を担保",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "ロジスティック回帰",
+    "definition": "シグモイドで確率を出し二値分類を行う線形モデル",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "不均衡データ",
+    "definition": "クラス比の偏りにより指標や学習が歪む課題",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "交差エントロピー",
+    "definition": "正解分布と予測分布の差を測る損失。分類で広用",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "内容ベース推薦",
+    "definition": "アイテム特徴量の類似度で推薦。新規性に強い",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "勾配ブースティング",
+    "definition": "誤差を順次補う弱学習器の加法モデルで高精度化",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "転移学習",
+    "definition": "学習済み重みを別タスクに流用しデータや計算を節約",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "過学習",
+    "definition": "訓練データに過度適合し未知データ性能が低下する状態",
+    "chapter": "第3章",
+    "sourceChapter": "機械学習の具体的手法",
+    "alias": "",
+    "priorityScore": 0.8,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "",
+    "term": "プロンプト注入",
+    "definition": "外部テキストに潜む指示でモデルが意図せず誘導される攻撃",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.72,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Embedding",
+    "term": "埋め込み(Embedding)",
+    "definition": "離散IDを連続ベクトルに写像し意味関係を表現",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "Embedding",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "XAI",
+    "term": "説明可能性(XAI)",
+    "definition": "人が理解可能な形で予測根拠を示す取り組み",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "XAI",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Tokenization",
+    "term": "トークナイズ",
+    "definition": "文字列をトークン列に変換する前処理",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "Tokenization",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Subword_Segmentation_BPE_etc",
+    "term": "サブワード分割",
+    "definition": "BPE等で未知語を分割し語彙外耐性を向上",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "Subword Segmentation (BPE etc.)",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "T5",
+    "term": "T5",
+    "definition": "あらゆるNLPをテキストtoテキストに統一する枠組み",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "T5",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Foundation",
+    "term": "基盤モデル(Foundation)",
+    "definition": "多様タスクの土台となる汎用大規模モデル。微調整で幅広く適用",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "Foundation",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Knowledge_Distill",
+    "term": "蒸留(Knowledge Distill)",
+    "definition": "大モデルの出力を教師に小モデルへ知識継承",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "Knowledge Distill",
+    "priorityScore": 0.63,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "MYCIN",
+    "term": "MYCIN",
+    "definition": "感染症診断支援の黎明期エキスパートシステム",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Mini_Max",
+    "term": "Mini-Max/αβ法",
+    "definition": "ゲームで最善手を選ぶ。枝刈りで計算を削減",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Jailbreak",
+    "term": "Jailbreak",
+    "definition": "安全策を回避する誘導プロンプト等の攻撃",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Few_shot",
+    "term": "Few-shotプロンプト",
+    "definition": "少数の良例を提示し期待動作へ誘導",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "ELIZA",
+    "term": "ELIZA",
+    "definition": "パターン照合で会話を模倣する初期対話プログラム",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "LIME",
+    "term": "LIME",
+    "definition": "近傍の線形近似で個別予測の根拠を説明",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  },
+  {
+    "id": "Pii",
+    "term": "Pii/機微情報",
+    "definition": "特に秘匿性の高い個人データ。厳格管理が必要",
+    "chapter": "第2章",
+    "sourceChapter": "人工知能をめぐる動向",
+    "alias": "",
+    "priorityScore": 0.6,
+    "priorityLabel": "中",
+    "distractorsTerms": [
+      "拡散モデル(Diffusion)",
+      "ベクトルDB",
+      "脱ハルシネ対策"
+    ]
+  }
+]
