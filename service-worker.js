@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'gk200-pwa-v1-wn';
+const CACHE_NAME = 'gk200-pwa-v2-wn';
 const CORE_ASSETS = [
   './',
   './index.html',
